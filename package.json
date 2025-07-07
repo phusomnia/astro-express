@@ -1,0 +1,22 @@
+{
+  "name": "astro-express",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev:astro": "astro dev",
+    "dev:server": "bun run --watch ./src/server/server.ts",
+    "dev": "concurrently \"bun run dev:astro\" \"bun run dev:server\"",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^9.3.0",
+    "@prisma/client": "^6.11.1",
+    "@types/express": "^5.0.3",
+    "astro": "^5.11.0",
+    "concurrently": "^9.2.0",
+    "express": "^5.1.0",
+    "prisma": "^6.11.1"
+  }
+}
