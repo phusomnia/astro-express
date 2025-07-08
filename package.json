@@ -16,15 +16,12 @@
     "@prisma/client": "^6.11.1",
     "@scalar/express-api-reference": "^0.8.9",
     "@types/cors": "^2.8.19",
-    "@types/swagger-ui-express": "^4.1.8",
     "astro": "^5.11.0",
-    "body-parse": "^0.1.0",
     "body-parser": "^2.2.0",
     "concurrently": "^9.2.0",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "prisma": "^6.11.1",
-    "swagger-ui-express": "^5.0.1",
     "tsoa": "^6.6.0"
   }
 }
